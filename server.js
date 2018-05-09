@@ -12,7 +12,7 @@ var reqFlag = 0;
 app.set('view engine', 'ejs');
 
 app.get(['/', '/index.html'], function(req, res){
-    res.render('index.ejs',{mnem: "mnom here", seed:"76896f8ds97gd9sg7s", ncc: "node chainz", npub: "666", mprk: "555"});
+    res.render('index.ejs',{mnem: "mnom here", seed:"seed here", ncc: "node chain code here", npub: "node public key here", mprk: "Mainnet Private Key here"});
 });
 
 app.get(['/requestkeys','index.html'], function(req,res){
