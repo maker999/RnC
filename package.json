@@ -1,0 +1,29 @@
+{
+  "name": "displaykeys",
+  "version": "1.0.0",
+  "description": "this piece of code requests the keys from STM32-Board",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maker999/RnC.git"
+  },
+  "keywords": [
+    "STMdunio",
+    "Node.js",
+    "BC_KEYS"
+  ],
+  "author": "Saeed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maker999/RnC/issues"
+  },
+  "homepage": "https://github.com/maker999/RnC#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "serialport": "^6.2.0"
+  }
+}

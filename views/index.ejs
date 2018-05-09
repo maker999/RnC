@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<body>
+  Mnemonic Phrase:</br>
+  <textarea rows="3" cols="150" readonly>
+    <%= mnem %>
+  </textarea>
+  </br>
+  Seed:</br>
+  <input type="text" name="seed" size="150" value="<%= seed %>" readonly></br>
+  Node Chain Code:
+  <input type="text" name="nodechain" size="150" value="<%= ncc %>" readonly></br>
+  Node Public Key:
+  <input type="text" name="nodepubkey" size="150" value="<%= npub %>" readonly></br>
+  Mainnet Private Key:
+  <input type="text" name="mnetprivkey" size="150" value="<%= mprk %>" readonly></br>
+
+  <form action="./requestkeys" method="GET">
+      <input type="submit" value="Display Keys"/>
+  </form>
+</body>
